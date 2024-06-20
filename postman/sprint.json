@@ -6187,7 +6187,7 @@
 					"    }\r",
 					"\r",
 					"    async addDirector(director, verbose=null) {\r",
-					"        return this.post(\"/directors/\", director, null, \"Ошибка при добавлении нового режиссера: \", verbose);\r",
+					"        return this.post(\"/directors\", director, null, \"Ошибка при добавлении нового режиссера: \", verbose);\r",
 					"    }\r",
 					"\r",
 					"    async addLike(filmId, userId, verbose=null) {\r",
